@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 40px;
+    width: 1440px;
+}
+
+.header__title-text {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: black;
+    line-height: 24px;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+span {
+    position: absolute;
+}
+
+.card-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image__row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.card-image__row--common {
+    position: relative;
+}
+
+.progress-bar {
+    width: 600px;
+    height: 20px;
+    background-color: rgb(103, 103, 204);
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+
+
